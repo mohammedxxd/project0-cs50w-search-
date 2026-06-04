@@ -1,0 +1,261 @@
+/* ==========================================================================
+   1. التنسيقات العامة والصفحة الرئيسية (Google Search)
+   ========================================================================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: ltr; /* لضمان توجيه العناصر من اليسار لليمين */
+}
+
+.nav-container {
+    text-align: right;
+    padding: 20px 30px;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* شعار جوجل الملون */
+.logo {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+.g1 { color: #4285F4; }
+.o1 { color: #EA4335; }
+.o2 { color: #FBBC05; }
+.g2 { color: #4285F4; }
+.l  { color: #34A853; }
+.e  { color: #EA4335; }
+
+/* صندوق شريط البحث */
+.search-box {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 0 15px;
+    height: 44px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.search-icon {
+    color: #9aa0a6;
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    background: transparent;
+}
+
+/* الأزرار تحت شريط البحث */
+.buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 10px 16px;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.1s, border-color 0.1s;
+}
+
+.btn:hover {
+    border: 1px solid #dadce0;
+    color: #202124;
+    background-color: #f8f9fa;
+}
+
+/* ==========================================================================
+   2. تنسيقات صفحة بحث الصور (Google Images)
+   ========================================================================== */
+.n {
+    text-align: right;
+    padding: 20px;
+}
+
+.k {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.k:hover {
+    text-decoration: underline;
+}
+
+.g {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.x { color: #4285f4; } 
+.y { color: #ea4335; } 
+.z { color: #fbbc05; } 
+.w { color: #4285f4; } 
+.v { color: #34a853; } 
+.u { color: #ea4335; } 
+
+.i {
+    text-align: center;
+    color: #4285f4;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.b {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 500px;
+    margin: 30px auto;
+    padding: 10px 15px;
+}
+
+.s {
+    color: #9aa0a6;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.m {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.c {
+    text-align: center;
+}
+
+.t {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.t:hover {
+    background-color: #357ae8;
+}
+
+/* ==========================================================================
+   3. تنسيقات صفحة البحث المتقدم (Advanced Search)
+   ========================================================================== */
+.h {
+    text-align: right; /* زر العودة على اليمين */
+    padding: 20px;
+}
+
+.r {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.r:hover {
+    text-decoration: underline;
+}
+
+.d {
+    color: #d93025; /* اللون الأحمر للعنوان */
+    font-size: 20px;
+    margin-left: 40px; 
+    margin-top: 30px;
+}
+
+.l {
+    border: 0;
+    border-top: 1px solid #ebebeb; 
+    margin-bottom: 30px;
+}
+
+/* التفاف الأسطر محاذاة لليسار */
+.p {
+    display: flex;
+    margin-bottom: 15px; 
+    align-items: center;
+    padding-left: 40px; 
+}
+
+/* الكلمات التوضيحية */
+.o {
+    width: 250px; 
+    font-size: 14px;
+    color: #202124;
+    text-align: left; 
+}
+
+/* حقول الإدخال */
+.e {
+    width: 500px; 
+    height: 25px; 
+    border: 1px solid #dfe1e5; 
+    padding: 2px 5px;
+    outline: none;
+}
+
+.e:focus {
+    border: 1px solid #4d90fe; 
+}
+
+/* حاوية وزر البحث المتقدم */
+.v {
+    margin-top: 30px;
+    padding-left: 290px; 
+}
+
+.j {
+    background-color: #4d90fe; 
+    color: white; 
+    border: 1px solid #3079ed;
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.j:hover {
+    background-color: #357ae8;
+}
