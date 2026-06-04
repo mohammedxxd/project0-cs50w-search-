@@ -1,0 +1,42 @@
+<!DOCTYPE html>                                                                                 
+<html>    
+<head>          
+    <title>CS50w - Google Images</title>            
+    <link rel="stylesheet" href="styles.css">
+</head>                     
+<body>   
+  
+    <!-- Top Navigation -->
+    <div class="n">
+        <a href="index.html" class="k">Google Search</a>
+    </div> 
+
+    <!-- Google Logo -->
+    <h1 class="g">      
+        <span class="x">G</span><span class="y">o</span><span class="z">o</span><span class="w">g</span><span class="v">l</span><span class="u">e</span>  
+    </h1>        
+
+    <!-- Subtitle -->
+    <div class="i">images</div>
+
+    <!-- Search Form -->
+    <form action="https://google.com" method="GET" class="f">
+        
+        <!-- Hidden input for image search -->
+        <input type="hidden" name="tbm" value="isch">
+
+        <!-- Search Bar -->
+        <div class="b">
+            <span class="s">⌕</span>
+            <input type="text" name="q" placeholder="Search In Google Images" autocomplete="off" class="m">
+        </div>
+
+        <!-- Submit Button -->
+        <div class="c">
+            <input type="submit" value="Search Images" class="t">
+        </div>
+
+    </form>
+
+</body>
+</html>
